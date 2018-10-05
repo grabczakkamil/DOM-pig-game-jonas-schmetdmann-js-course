@@ -152,3 +152,14 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+.fill-amount-of-points {
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translateX(-50%);
+    font-family: 'Lato';
+    text-transform: uppercase;
+    text-align: center;
+}
+.fill-amount-of-points:focus {outline: none};
